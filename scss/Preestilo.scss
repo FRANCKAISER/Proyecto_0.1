@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+        background-image: url("../img/imagen 1.jpg");
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+    
+    #titulo{
+        color:black;
+        text-align:center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 40px ;
+        text-shadow: 2px 2px 2px rgb(239, 239, 243);
+    }
+
+nav{
+        background-color: black; 
+        display: flex;     
+        justify-content: space-evenly;
+        height: 100px;
+        align-items: center;
+        text-decoration: none;
+        position: sticky;
+        top: 0px;
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+ul{
+text-decoration: none;
+display: contents;
+list-style: none;
+
+}
+
+form{
+    width: 300px;
+    box-sizing: border-box;
+    
+ 
+}
+#main_home{
+    background-image: url("../img/imagen 2.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+        grid-template-columns: 25% 60% 20%;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas:
+                   "a1 a2 a3"
+                   "a1 a2 a3"
+                   "a1 a2 a3";
+   
+    
+}
+#text_home{
+    grid-area: a1;
+    text-shadow: 6px 6px 6px black;
+    color:rgb(0, 0, 0);
+    background-color: rgb(131, 133, 213);
+    font-family:'Niconne', cursive;
+    
+    padding-left: 8px;
+   
+    
+
+}
+
+#main_contactos{
+    background-image: url("../img/imagen 5.jpg");
+
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        
+        display: grid;
+        grid-template-columns: 25% 60% 20%;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas:
+                   "a1 a2 a3"
+                   "a4 a2 a7"
+                   "a5 a2 a9";
+        align-self: center;
+        justify-self: center;
+            
+}
+#tex_con{
+    
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 2px 2px 2px darkblue;
+    grid-area: a2;
+}
+#texto_1{
+    
+    grid-area:a2;
+}
+#texto_2{
+    
+    grid-area:a2;
+}
+#texto_3{
+    grid-area:a2;
+}
+
+#main_foro{
+    background-image: url("../img/imagen 3.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#text_foro{
+    
+    border-style: solid;
+    width: 400px;
+    padding: 4px ;   
+}
+
+#main_galeria{
+   background-color:white;
+    
+    width: 100%;
+
+}
+
+#main_teoria{
+     background-image: url("../img/imagen 6.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 2px rgb(239, 239, 243);
+    
+    
+
+
+}
+#youtube:hover{
+    color: red;
+}
+
+footer{
+    display: flex;
+    height: 100px;
+    background-color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    justify-content:space-evenly;
+    align-items: center;
+}
+@media only screen and (min-width:600px) {
+
+    
+}
+    
+
